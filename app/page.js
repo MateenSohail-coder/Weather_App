@@ -91,7 +91,14 @@ export default function Home() {
 
   return (
     <>
-    <div className="github fixed h-13 w-13 rounded-full flex items-center border-2 cursor-pointer active:scale-[0.96] border-purple-700 justify-center bg-amber-100 bottom-3 z-50 md:top-1.5 right-1.5"><GithubIcon className="w-8 h-8" /></div>
+      <a
+        href="https://github.com/MateenSohail-coder/Weather_App.git"
+        target="_blank"
+      >
+        <div className="github fixed h-13 w-13 rounded-full flex items-center border-2 cursor-pointer active:scale-[0.96] border-purple-700 justify-center bg-amber-100 bottom-3 z-50 md:top-1.5 right-1.5">
+          <GithubIcon className="w-8 h-8" />
+        </div>
+      </a>{" "}
       <div className="heading bg-white/1 rounded-3xl my-3 gap-2 flex items-center justify-center font-bold text-white text-3xl border-white/30 border h-[10%] w-full md:w-[60%] text-shadow-sm text-shadow-purple-700">
         <svg
           xmlns="http://www.w3.org/2000/svg"
