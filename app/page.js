@@ -277,7 +277,7 @@ export default function Home() {
           </div>
         )}
         {isloading && !weather && (
-          <div className="flex items-center justify-center border-2 border-purple-700 rounded-2xl h-[68%] w-full">
+          <div className="flex items-center justify-center py-20 rounded-2xl h-[68%] w-full">
             <div className="relative flex space-x-2">
               <div className="w-3 h-3 bg-purple-600 rounded-full animate-bounce [animation-delay:-0.3s]"></div>
               <div className="w-3 h-3 bg-purple-500 rounded-full animate-bounce [animation-delay:-0.15s]"></div>
